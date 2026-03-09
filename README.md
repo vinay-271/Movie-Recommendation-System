@@ -26,6 +26,7 @@ This project uses the famous **TMDB 5000 Movies Dataset** from Kaggle.
 It involves merging two datasets based on the movie title:
 * `tmdb_5000_movies.csv`
 * `tmdb_5000_credits.csv`
+* *NOTE : Extract datasets from Datasets.zip before running the project*
 
 ## 🧠 How It Works (The Machine Learning Pipeline)
 1. **Data Preprocessing:** Missing values are handled, and useful columns (`genres`, `id`, `keywords`, `title`, `overview`, `cast`, `crew`) are extracted.
